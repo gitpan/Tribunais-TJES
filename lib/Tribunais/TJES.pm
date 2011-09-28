@@ -120,17 +120,11 @@ O resultado da sincronização é dado no formato JSON contendo todo o andamento
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
     use TJES;
-    
-    my $numerodoprocesso = "021070011867";
-
-    my $instancia = "1";
-
-    my $sePesquisar = "1";
 
     #cria objeto tribunal
     my $tribunal = new Tribunais::TJES($numerodoprocesso, $instancia, $sePesquisar);
@@ -146,6 +140,18 @@ version 0.005
     $tribunal->sincroniza
 
 Realiza busca na base de dados do TJ e retorna um obj JSON contendo todo o andamento
+
+=head1 Formato da resposta
+
+    {"fases":
+	[
+	    {
+	    "statusandamento":" SPTC BAIXA. RÉU SOLTO ",
+	    "andamento":"Ofício - Expeça-se ",
+	    "data":" 25/08/2001 "
+	    }
+	]
+    }
 
 
 =head1 EXAMPLES
