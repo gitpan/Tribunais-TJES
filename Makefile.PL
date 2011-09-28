@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Interface de consulta processual no Tribunal de Justi\303\247a do Esp\303\255rito Santo - Brasil",
+  "ABSTRACT" => "Interface de consulta processual no Tribunal de Justi\303\247a do Esp\303\255rito Santo - Brasil.",
   "AUTHOR" => "Jos\351 Eduardo Perotta de Almeida <eduardo\@web2solutions.com.br>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -20,7 +20,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Tribunais::TJES",
   "PREREQ_PM" => {},
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => ""
   }
