@@ -4,4 +4,5 @@ META.yml
 Makefile.PL
 README
 dist.ini
+example/consulta.pl
 lib/Tribunais/TJES.pm
