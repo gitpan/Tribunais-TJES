@@ -3,6 +3,5 @@ MANIFEST
 META.yml
 Makefile.PL
 README
-consulta.pl
 dist.ini
 lib/Tribunais/TJES.pm

@@ -12,4 +12,12 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Tribunais-TJES
-version: 0.002
+requires:
+  HTML::TreeBuilder::XPath: 0
+  JSON: 0
+  Path::Class: 0
+  WWW::Mechanize: 0
+  strict: 0
+  utf8: 0
+  warnings: 0
+version: 0.003

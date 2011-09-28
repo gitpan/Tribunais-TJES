@@ -19,8 +19,16 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Tribunais::TJES",
-  "PREREQ_PM" => {},
-  "VERSION" => "0.002",
+  "PREREQ_PM" => {
+    "HTML::TreeBuilder::XPath" => 0,
+    "JSON" => 0,
+    "Path::Class" => 0,
+    "WWW::Mechanize" => 0,
+    "strict" => 0,
+    "utf8" => 0,
+    "warnings" => 0
+  },
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => ""
   }

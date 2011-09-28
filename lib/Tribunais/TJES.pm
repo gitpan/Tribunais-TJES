@@ -7,6 +7,7 @@ use JSON;
 use WWW::Mechanize;
 use HTML::TreeBuilder::XPath;
 use Path::Class;
+use utf8;
 
 
 sub new
