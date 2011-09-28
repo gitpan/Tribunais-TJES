@@ -120,7 +120,7 @@ O resultado da sincronização é dado no formato JSON contendo todo o andamento
 
 =head1 VERSION
 
-version 0.002
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -142,6 +142,8 @@ version 0.002
 =head1 METHODS
 
 =head2 sincroniza
+    
+    $tribunal->sincroniza
 
 Realiza busca na base de dados do TJ e retorna um obj JSON contendo todo o andamento
     
